@@ -1,4 +1,4 @@
-# Assignment 2
+# Docker volumes
 In this project, we have used Docker volumes to persist data between containers and a user-defined Docker network to enable communication between containers.
 
 The Docker volumes were created using the docker volume create command before running the containers. The volumes were then mounted inside the containers using the --mount flag or the -v flag. We used named volumes, which are created and managed by Docker, and can be shared between containers. This allows us to persist data even if the containers are deleted or recreated.
